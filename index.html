@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>București - Capitala României</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <h1>București - Capitala României</h1>
+    </header>
+    <main>
+        <section id="istorie">
+            <h2>Istoria Bucureștiului</h2>
+            <p>Bucureștiul are o istorie bogată, marcând tranzițiile culturale și politice ale României...</p>
+            <img src="https://via.placeholder.com/600x400" alt="Istoria Bucureștiului">
+        </section>
+        <section id="locatie">
+            <h2>Locație și Geografie</h2>
+            <p>Situat în partea de sud-est a României, pe râul Dâmbovița...</p>
+            <img src="https://via.placeholder.com/600x400" alt="Locație și Geografie">
+        </section>
+        <section id="cultura">
+            <h2>Cultura și Viața Urbană</h2>
+            <p>Capitala este un centru vital cultural, găzduind numeroase evenimente, muzee și teatre...</p>
+            <img src="https://via.placeholder.com/600x400" alt="Cultura și Viața Urbană">
+        </section>
+        <section id="galerie">
+            <h2>Galerie de Imagini</h2>
+            <div class="images-container">
+                <img src="https://via.placeholder.com/200x200" alt="Imagine 1">
+                <img src="https://via.placeholder.com/200x200" alt="Imagine 2">
+                <img src="https://via.placeholder.com/200x200" alt="Imagine 3">
+                <img src="https://via.placeholder.com/200x200" alt="Imagine 4">
+                <img src="https://via.placeholder.com/200x200" alt="Imagine 5">
+            </div>
+        </section>
+        <section id="tabel">
+            <h2>Statistici Demografice</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>An</th>
+                        <th>Populație</th>
+                        <th>Rată de Creștere</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2010</td>
+                        <td>1,883,425</td>
+                        <td>0.5%</td>
+                    </tr>
+                    <tr>
+                        <td>2015</td>
+                        <td>1,910,570</td>
+                        <td>0.7%</td>
+                    </tr>
+                    <tr>
+                        <td>2020</td>
+                        <td>1,932,399</td>
+                        <td>0.6%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="contact">
+            <h2>Contactați-ne</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Nume:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mesaj:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Trimite</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Contact: <a href="mailto:info@bucharest.ro">info@bucharest.ro</a></p>
+    </footer>
+</body>
+
+</html>
